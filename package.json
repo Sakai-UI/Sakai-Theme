@@ -1,0 +1,72 @@
+{
+	"name": "sakai-theme",
+	"version": "2.6.0",
+	"publisher": "mvllow",
+	"description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
+	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/Sakai-Theme/visual-studio-code"
+	},
+	"funding": "https://github.com/Sakai-Theme/visual-studio-code?sponsor=1",
+	"sponsor": {
+		"url": "https://github.com/Sakai-Theme/visual-studio-code?sponsor=1"
+	},
+	"author": {
+		"name": "Pablo Severino",
+		"email": "pabloseverino40@gmail.com"
+	},
+	"type": "module",
+	"engines": {
+		"vscode": "^1.57.0"
+	},
+	"scripts": {
+		"build": "pinecone",
+		"watch": "pinecone --watch",
+		"release": "np --no-publish --no-tests"
+	},
+	"icon": "assets/icon.png",
+	"displayName": "Sakai Theme",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"minimal",
+		"aesthetic",
+		"pastel",
+		"classy",
+		"soft",
+		"theme",
+		"sakai"
+	],
+	"galleryBanner": {
+		"color": "#191724",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Sakai Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/sakai-color-theme.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"id": "sakai-icons",
+				"label": "Sakai Theme Icons",
+				"path": "./icons/sakai-icon-theme.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@rose-pine/palette": "^2.0.0-4",
+		"np": "^7.6.1",
+		"pinecone-cli": "^3.0.1",
+		"prettier": "^2.5.1"
+	},
+	"prettier": {
+		"semi": false,
+		"singleQuote": true,
+		"useTabs": true
+	}
+}

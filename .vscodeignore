@@ -1,0 +1,7 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+.github/**
+examples/**
+themes/_sakai-color-theme.json
+sakai.config.js
