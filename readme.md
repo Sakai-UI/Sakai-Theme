@@ -18,7 +18,7 @@
 
 **Sakai**
 
-![VSCode with Sakai]()
+![VSCode with Sakai](https://github.com/Sakai-Theme/visual-studio-code/blob/main/assets/screenshot.png)
 
 ## Disable italics
 
