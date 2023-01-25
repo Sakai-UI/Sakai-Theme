@@ -16,9 +16,9 @@
 
 > Font used is [JetBrains](https://www.jetbrains.com/lp/mono/)
 
-**Sakai**
+**Sakai Theme**
 
-![VSCode with Sakai](https://github.com/Sakai-Theme/visual-studio-code/blob/main/assets/screenshot.png)
+<img src="assets/screenshot.png" />
 
 ## Disable italics
 
