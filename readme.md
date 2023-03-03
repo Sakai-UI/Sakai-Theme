@@ -5,6 +5,10 @@
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
 
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Sakai-Theme/hyper/main/assets/emphasis.svg" />
+</div>
+    
 ## Usage
 
 1. Open VSCode
