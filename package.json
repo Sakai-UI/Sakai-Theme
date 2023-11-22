@@ -1,18 +1,18 @@
 {
-	"name": "sakai",
-	"version": "2.6.2",
-	"publisher": "Sakai",
+	"name": "sakai-theme",
+	"version": "2.9.0",
+	"publisher": "mvllow",
 	"description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
 	"license": "MIT",
 	"repository": {
-		"url": "https://github.com/Sakai-Theme/visual-studio-code"
+		"url": "https://github.com/sakai-theme/vscode"
 	},
-	"funding": "https://github.com/Sakai-Theme/visual-studio-code?sponsor=1",
+	"funding": "https://github.com/sakai-theme/vscode?sponsor=1",
 	"sponsor": {
-		"url": "https://github.com/Sakai-Theme/visual-studio-code?sponsor=1"
+		"url": "https://github.com/sakai-theme/vscode?sponsor=1"
 	},
 	"author": {
-		"name": "Pablo Severino",
+		"name": "Sakai Theme",
 		"email": "pabloseverino40@gmail.com"
 	},
 	"type": "module",
@@ -20,9 +20,11 @@
 		"vscode": "^1.57.0"
 	},
 	"scripts": {
-		"build": "pinecone",
+		"build": "pinecone && npm run format",
 		"watch": "pinecone --watch",
-		"release": "np --no-publish --no-tests"
+		"format": "prettier --write .",
+		"release": "npx np@latest --no-publish --no-tests",
+		"version": "npm run build && npm run format"
 	},
 	"icon": "assets/icon.png",
 	"displayName": "Sakai Theme",
@@ -34,35 +36,52 @@
 		"aesthetic",
 		"pastel",
 		"classy",
-		"soft",
-		"theme",
-		"sakai"
+		"soft"
 	],
 	"galleryBanner": {
 		"color": "#191724",
 		"theme": "dark"
 	},
 	"contributes": {
-		"themes": [
-			{
-				"label": "Sakai Theme",
-				"uiTheme": "vs-dark",
-				"path": "./themes/sakai-color-theme.json"
-			}
-		],
 		"iconThemes": [
 			{
-				"id": "sakai-icons",
-				"label": "Sakai Theme Icons",
-				"path": "./icons/sakai-icon-theme.json"
+				"id": "sakai-theme-icons",
+				"label": "Sakai Theme Jupiter",
+				"path": "./icons/sakai-theme-jupiter.json"
+			}
+		],
+		"themes": [
+			{
+				"label": "Sakai Theme Saturn",
+				"uiTheme": "vs-dark",
+				"path": "./themes/sakai-theme-saturn.json"
+			},
+			{
+				"label": "Sakai Theme Uranus",
+				"uiTheme": "vs-dark",
+				"path": "./themes/sakai-theme-uranus.json"
+			},
+			{
+				"label": "Sakai Theme Sun",
+				"uiTheme": "vs-dark",
+				"path": "./themes/sakai-theme-sun.json"
+			},
+			{
+				"label": "Sakai Theme Moon",
+				"uiTheme": "vs-dark",
+				"path": "./themes/sakai-theme-moon.json"
+			},
+			{
+				"label": "Sakai Theme Jupiter",
+				"uiTheme": "vs-dark",
+				"path": "./themes/sakai-theme-jupiter.json"
 			}
 		]
 	},
 	"devDependencies": {
-		"@rose-pine/palette": "^2.0.0-4",
-		"np": "^7.6.1",
-		"pinecone-cli": "^3.0.1",
-		"prettier": "^2.5.1"
+		"@sakai-theme/palette": "3.0.1",
+		"pinecone-cli": "^4.0.1",
+		"prettier": "^2.8.7"
 	},
 	"prettier": {
 		"semi": false,

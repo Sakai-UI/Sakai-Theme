@@ -3,5 +3,5 @@
 .gitignore
 .github/**
 examples/**
-themes/_sakai-color-theme.json
-sakai.config.js
+themes/_sakai-theme.json
+sakai-theme-jupiter.config.js

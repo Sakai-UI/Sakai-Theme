@@ -2,7 +2,7 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Preview Sakai",
+			"name": "Preview Sakai Theme",
 			"type": "extensionHost",
 			"args": ["--extensionDevelopmentPath=${workspaceFolder}"],
 			"request": "launch"
