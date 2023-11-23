@@ -1,18 +1,18 @@
 {
-	"name": "sakai-theme",
-	"version": "2.9.0",
-	"publisher": "mvllow",
+	"name": "sakai",
+	"version": "2.6.5",
+	"publisher": "Sakai",
 	"description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
 	"license": "MIT",
 	"repository": {
-		"url": "https://github.com/sakai-theme/vscode"
+		"url": "https://github.com/Sakai-UI/visual-studio-code"
 	},
-	"funding": "https://github.com/sakai-theme/vscode?sponsor=1",
+	"funding": "https://github.com/Sakai-UI/visual-studio-code?sponsor=1",
 	"sponsor": {
-		"url": "https://github.com/sakai-theme/vscode?sponsor=1"
+		"url": "https://github.com/Sakai-UI/visual-studio-code?sponsor=1"
 	},
 	"author": {
-		"name": "Sakai Theme",
+		"name": "Pablo Severino",
 		"email": "pabloseverino40@gmail.com"
 	},
 	"type": "module",
@@ -45,9 +45,9 @@
 	"contributes": {
 		"iconThemes": [
 			{
-				"id": "sakai-theme-icons",
-				"label": "Sakai Theme Jupiter",
-				"path": "./icons/sakai-theme-jupiter.json"
+				"id": "sakai-icons",
+				"label": "Sakai Theme Icons",
+				"path": "./icons/sakai-icon-theme.json"
 			}
 		],
 		"themes": [
@@ -79,7 +79,7 @@
 		]
 	},
 	"devDependencies": {
-		"@sakai-theme/palette": "3.0.1",
+		"@rose-pine/palette": "3.0.1",
 		"pinecone-cli": "^4.0.1",
 		"prettier": "^2.8.7"
 	},
