@@ -1,6 +1,6 @@
 <p align="center">
     <img src="assets/icon.png" width="80" />
-    <h2 align="center">Sakai for VSCode</h2>
+    <h2 align="center">Sakai Theme</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
