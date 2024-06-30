@@ -370,7 +370,7 @@
 		"statusBarItem.prominentBackground": "#DBDBDB",
 		"statusBarItem.prominentForeground": "#575279",
 		"statusBarItem.prominentHoverBackground": "#6e6a8614",
-		"statusBarItem.remoteBackground": "#E6E6E6",
+		"statusBarItem.remoteBackground": "#6e6a8614",
 		"statusBarItem.remoteForeground": "#EA9D34",
 		"statusBarItem.errorBackground": "#E9E9E9",
 		"statusBarItem.errorForeground": "#b4637a",

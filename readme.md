@@ -1,9 +1,9 @@
 <p align="center">
-    <img src="assets/icon.png" width="80" />
+    <img src="assets/icon.png" width="120" />
     <h2 align="center">Sakai Theme</h2>
 </p>
 
-<p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
+<p align="center">Best Themes for Visual Studio Code</p>
 
 <div align="center">
     <img src="assets/emphasis.png" />
@@ -38,8 +38,16 @@
 
 <img src="assets/sun.png" />
 
+**Sakai Theme Titan**
+
+<img src="assets/titan.png" />
+
 **Sakai Theme Uranus**
 
 <img src="assets/uranus.png" />
+
+**Sakai Theme Venus**
+
+<img src="assets/venus.png" />
 
 </div>

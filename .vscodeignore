@@ -4,4 +4,4 @@
 .github/**
 examples/**
 themes/_sakai-theme.json
-sakai-theme-jupiter.config.js
+sakai-theme.config.js

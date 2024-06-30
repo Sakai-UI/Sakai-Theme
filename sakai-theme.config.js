@@ -34,23 +34,35 @@ export default defineConfig({
 	},
 	variants: {
 		main: {
-			name: 'Sakai Theme saturno',
-			type: 'dark',
-		},
-		neptune: {
-			name: 'Sakai Theme neptune',
-			type: 'dark',
-		},
-		sun: {
-			name: 'Sakai Theme sun',
-			type: 'light',
-		},
-		moon: {
-			name: 'Sakai Theme moon',
+			name: 'Sakai Theme',
 			type: 'dark',
 		},
 		jupiter: {
-			name: 'Sakai Theme jupiter',
+			name: 'Sakai Theme Jupiter',
+			type: 'dark',
+		},
+		moon: {
+			name: 'Sakai Theme Moon',
+			type: 'dark',
+		},
+		saturn: {
+			name: 'Sakai Theme Saturn',
+			type: 'dark',
+		},
+		sun: {
+			name: 'Sakai Theme Sun',
+			type: 'light',
+		},
+		titan: {
+			name: 'Sakai Theme Titan',
+			type: 'dark',
+		},
+		uranus: {
+			name: 'Sakai Theme Uranus',
+			type: 'dark',
+		},
+		venus: {
+			name: 'Sakai Theme Venus',
 			type: 'dark',
 		},
 	},
